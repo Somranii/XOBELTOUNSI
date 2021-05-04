@@ -195,19 +195,24 @@ def reset():
     b7 = Button(root, text=" ", font=("Helvetica", 30), height=3, width=6, bg="SystemButtonFace", command=lambda: b_click(b7))
     b8 = Button(root, text=" ", font=("Helvetica", 30), height=3, width=6, bg="SystemButtonFace", command=lambda: b_click(b8))
     b9 = Button(root, text=" ", font=("Helvetica", 30), height=3, width=6, bg="SystemButtonFace", command=lambda: b_click(b9))
+    
+  # lahne bsh n9asmo  ecran  
+    l1=Label(root,text="Player 1: X ",font="Helvetica")
+    l1.grid(row=0,column=1)
+    l2=Label(root,text="Player 2: O ",font="Helvetica")
+    l2.grid(row=0,column=2)
+ 
+    b1.grid(row=1, column=1)
+    b2.grid(row=1, column=2)
+    b3.grid(row=1, column=3)
 
-   # lahne bsh n9asmo  ecran  
-    b1.grid(row=0, column=0)
-    b2.grid(row=0, column=1)
-    b3.grid(row=0, column=2)
+    b4.grid(row=2, column=1)
+    b5.grid(row=2, column=2)
+    b6.grid(row=2, column=3)
 
-    b4.grid(row=1, column=0)
-    b5.grid(row=1, column=1)
-    b6.grid(row=1, column=2)
-
-    b7.grid(row=2, column=0)
-    b8.grid(row=2, column=1)
-    b9.grid(row=2, column=2)
+    b7.grid(row=3, column=1)
+    b8.grid(row=3, column=2)
+    b9.grid(row=3, column=3)
 
 # Ngedo el menu 
 el_menu = Menu(root)
